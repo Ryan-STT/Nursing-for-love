@@ -132,17 +132,24 @@ footer h1{
     font-family: 'Pushster', cursive;
     letter-spacing: 1px;
     font-size: xx-large;
-    padding: 30px 0;
+    padding: 30px 0 0 70px;
     margin: 0 !important;
 }
 footer h6{
     color: white;
     font-family: 'Bebas Neue', cursive;
-    font-size: smaller;
+    font-size: larger;
     text-align: end;
     margin: 0 !important;
 }
-
+footer a{
+    text-decoration: none !important;
+}
+footer .casal{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
 /*MEDIA*/
 
 @media (max-width: 426px){
@@ -169,5 +176,20 @@ footer h6{
     }
     .wpp{
         display: none !important;
+    }
+    footer h1{
+        color: white;
+        font-family: 'Pushster', cursive;
+        letter-spacing: 1px;
+        font-size: large;
+        padding: 30px 0 0 30px;
+        margin: 0 !important;
+    }
+    footer h6{
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: small;
+        text-align: end;
+        margin: 0 !important;
     }
 }
