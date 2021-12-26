@@ -13,7 +13,6 @@ body{
     -webkit-filter: drop-shadow(1px 1px 1px white);
     filter: drop-shadow(1px 1px 6px rgba(164, 161, 161, 0.768));
 }
-
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -104,6 +103,10 @@ abbr{
 }
 .btn-primary.focus, .btn-primary:focus {
     box-shadow: none !important;
+}
+.videos .iconvd{
+    width: 60px;
+    height: 60px;
 }
 
 /*MODAL*/
