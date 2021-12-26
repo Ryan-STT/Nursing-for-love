@@ -118,6 +118,30 @@ abbr{
     font-size: large;
 }
 
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    color: white;
+}
+footer h1{
+    color: white;
+    font-family: 'Pushster', cursive;
+    letter-spacing: 1px;
+    font-size: xx-large;
+    padding: 30px 0;
+    margin: 0 !important;
+}
+footer h6{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: smaller;
+    text-align: end;
+    margin: 0 !important;
+}
+
+/*MEDIA*/
+
 @media (max-width: 426px){
     .pdf{
         display: none !important;
