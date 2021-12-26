@@ -83,17 +83,17 @@
     padding: 0 40px 0 40px;
 }
 .ftenf{
-    background-color: white;
+    background-color: transparent;
     margin: 15px 0;
     border-radius: 25px;
     align-items: center;
     transition: all 0.4s;
 }
 .ftenf:hover{
-    background-color: #d2e9ff;
-    transition: all 0.3s ease-in;
-    transform: scale(1.1);
-    box-shadow: 10px 9px 20px 1px black;
+    background-color: transparent;
+    transition: none;
+    transform: none;
+    box-shadow: none;
 }
 .fotos img{
     object-fit: cover;
