@@ -1,0 +1,52 @@
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: #9dc4e8;
+}
+.embed-responsive{
+    height: 800px;
+}
+h1{
+    color: white;
+    font-family: 'Pushster', cursive;
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+.videos button{
+    margin: 20px 0;
+    width: 100%;
+    text-align: start;
+    border-radius: 25px;
+    background-color: #2070a1;
+    border: none !important;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+.videos button:hover{
+    background-color: #34b2e4;
+    transition: all 0.3s ease-in;
+}
+.videos button img{
+    margin: 0 30px 0 0;
+}
+.drive button{
+    background-color: white;
+    color: black;
+    border: none !important;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 30px;
+    font-size: xx-large;
+    margin-bottom: 70px;
+}
+.drive button img{
+    margin: 0 10px 0 0;
+}
+.drive button:hover{
+    background-color: #d2e9ff;
+    transition: all 0.3s ease-in;
+    color: black;
+}

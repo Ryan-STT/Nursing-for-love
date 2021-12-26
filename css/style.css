@@ -9,14 +9,6 @@
     -webkit-filter: drop-shadow(1px 1px 1px white);
     filter: drop-shadow(1px 1px 6px rgba(164, 161, 161, 0.768));
 }
-.navbar-brand span{
-    font-family: 'Pushster', cursive;
-    letter-spacing: 1px;
-    font-size: xx-large;
-    color: #9dc4e8;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-}
 
 .scroll-up-btn{
     position: fixed;
@@ -42,6 +34,10 @@
     pointer-events: auto;
 }
 
+.carousel-inner{
+    height: 700px;
+}
+
 /*CONTEUDO*/
 
 .conteudo{
@@ -51,7 +47,7 @@
     color: white;
     font-family: 'Pushster', cursive;
     letter-spacing: 1px;
-    font-size: 70px;
+    font-size: xx-large;
     text-align: center;
     padding: 90px 0;
 }
@@ -60,6 +56,11 @@
     margin: 40px 0;
     border-radius: 25px;
     align-items: center;
+}
+.card:hover{
+    background-color: #d2e9ff;
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
 }
 .card h5{
     font-family: 'Bebas Neue', cursive;
@@ -71,4 +72,7 @@
     width: 200px;
     height: 200px;
     margin: 20px 0;
+}
+.borda{
+    padding-bottom: 25px;
 }
