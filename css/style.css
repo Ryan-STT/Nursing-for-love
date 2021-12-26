@@ -13,6 +13,9 @@
     font-family: 'Pushster', cursive;
     letter-spacing: 1px;
     font-size: xx-large;
+    color: #9dc4e8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
 .scroll-up-btn{
@@ -64,7 +67,6 @@
     text-align: center;
     font-size: xx-large;
 }
-
 .card img{
     width: 200px;
     height: 200px;
