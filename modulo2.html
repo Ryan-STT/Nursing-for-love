@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/modulo.css">
+    <title>Anatomia e Fisiologia</title>
+</head>
+<body>
+
+    <!--BOTÃO UP-->
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
+
+    <!--CABEÇALHO-->
+
+    <header>
+        <nav class="navbar navbar-dark fixed-top">
+            <a class="navbar-brand" href="#"><img src="imagens/logotipo.png" width="100" height="100" class="d-inline-block align-top" alt=""></a>
+        </nav>
+    </header>
+
+    <!--CELULAR-->
+
+    <img class="img-fluid celular" src="imagens/Drive.png" alt="">
+
+    <!--PDF-->
+
+    <div class="container">
+        <div class="embed-responsive embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="pdf/APOSTILA AUX DE ENFERMAGEM [.pdf"></iframe>
+        </div>
+
+        <!--GOOGLE DRIVE E CONTATO-->
+
+        <div class="drive mt-3">
+            <abbr title="CLIQUE AQUI PARA ACESSAR A APOSTILA"><a href="https://drive.google.com/file/d/1DsXdDByVRD9mSp3FbefoU1BAI4HcdOO7/view?usp=sharing"><button type="button" class="btn btn-primary btn-lg d-inline"><img src="https://img.icons8.com/color/60/000000/google-drive--v2.png"/>GOOGLE DRIVE</button></a></abbr>
+            <abbr title="CLIQUE AQUI PARA TIRAR SUAS DÚVIDAS"><a href="https://wa.me/+5511910936703"><button type="button" class="btn btn-primary btn-lg d-inline wpp"><img src="https://img.icons8.com/color/60/000000/whatsapp--v6.png"/>WHATSAPP</button></a></abbr>
+        </div>
+
+        <!--VIDEOS-->
+
+        <div class="videos">
+            <h1 class="mb-5 mt-5">VIDEOS</h1>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video1"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA URINÁRIO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video2"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA RESPIRATÓRIO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video3"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>REPRODUTOR MASCULINO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video4"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>REPRUDUTOR FEMININO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video5"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA NERVOSO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video6"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA ESQUELÉTICO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video7"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA ENDÓCRINO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video8"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA DIGESTÓRIO</span></button>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#video9"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>SISTEMA CARDIOVASCULAR</span></button>
+        </div>
+        
+        <!--MODAL VIDEOS-->
+
+        <div class="modal fade " id="video1" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA URINÁRIO</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mLMUMIm-AMw" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade " id="video2" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA RESPIRATÓRIO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-21by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ayBp8QPWkwc" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade " id="video3" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA REPRODUTOR MASCULINO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZO8NTiGVF7g" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video4" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA REPRODUTOR FEMININO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qdEe7cRF_C0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video5" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA NERVOSO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ruXPbZ7qKgo" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video6" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA ESQUELÉTICO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3i0JCOY7r0A" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video7" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA ENDÓCRINO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XgjWqozO31E" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video8" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA DIGESTÓRIO</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5T-YaYEJ6vs" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="modal fade " id="video9" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalCentralizado">SISTEMA CARDIOVASCULAR</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R1mOEbfhzGk" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

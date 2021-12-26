@@ -6,36 +6,58 @@
 body{
     background-color: #9dc4e8;
 }
-.embed-responsive{
-    height: 400px;
+
+/*CABEÇALHO*/
+
+.navbar-brand img{
+    -webkit-filter: drop-shadow(1px 1px 1px white);
+    filter: drop-shadow(1px 1px 6px rgba(164, 161, 161, 0.768));
 }
+
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: white;
+    z-index: 999;
+    font-size: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/*PDF*/
+
+.embed-responsive{
+    height: 900px;
+}
+.celular{
+    display: none !important;
+}
+
+/*TITULO*/
+
 h1{
     color: white;
     font-family: 'Pushster', cursive;
     letter-spacing: 1px;
     font-size: xx-large;
 }
-.videos button{
-    margin: 20px 0;
-    width: 100%;
-    text-align: start;
-    border-radius: 25px;
-    background-color: #2070a1;
-    border: none !important;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 2px;
-    font-size: large;
-}
-.videos a{
-    text-decoration: none !important;
-}
-.videos button:hover{
-    background-color: #34b2e4;
-    transition: all 0.3s ease-in;
-}
-.videos button img{
-    margin: 0 30px 0 0;
-}
+
+/*GOOGLE DRIVE e WHATSAPP*/
+
 .drive button{
     background-color: white;
     color: black;
@@ -55,4 +77,70 @@ h1{
     background-color: #d2e9ff;
     transition: all 0.3s ease-in;
     color: black;
+}
+abbr{
+    text-decoration: none !important;
+}
+
+/*VIDEOS*/
+
+.videos button{
+    margin: 20px 0;
+    width: 100%;
+    text-align: start;
+    border-radius: 25px;
+    background-color: #2070a1;
+    border: none !important;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: xx-large;
+}
+.videos button:hover{
+    background-color: #34b2e4;
+    transition: all 0.3s ease-in;
+}
+.videos button img{
+    margin: 0 30px 0 0;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none !important;
+}
+
+/*MODAL*/
+
+.embed-responsive{
+    width: 100% !important;
+    height: 100%;
+}
+.modal-header h5{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+@media (max-width: 426px){
+    .embed-responsive, iframe{
+        display: none !important;
+    }
+    .videos button{
+        text-align: start;
+        width: 100%;
+        border-radius: 25px;
+        background-color: #2070a1;
+        border: none !important;
+        font-family: 'Bebas Neue', cursive;
+        font-size: large;
+    }
+    .videos button img{
+        margin: 0 30px 0 0;
+    }
+    body{
+        text-align: center;
+    }
+    .celular{
+        display: block !important;
+    }
+    .wpp{
+        display: none !important;
+    }
 }

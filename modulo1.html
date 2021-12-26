@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/modulo.css">
     <title>Introdução a Enfermagem</title>
 </head>
 <body>
+
+    <!--BOTÃO UP-->
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-arrow-circle-up"></i>
+    </div>
+
+    <!--CABEÇALHO-->
+
+    <header>
+        <nav class="navbar navbar-dark fixed-top">
+            <a class="navbar-brand" href="#"><img src="imagens/logotipo.png" width="100" height="100" class="d-inline-block align-top" alt=""></a>
+        </nav>
+    </header>
+
+    <!--CELULAR-->
+
+    <img class="img-fluid celular" src="imagens/Drive.png" alt="">
 
     <!--PDF-->
 
@@ -18,17 +39,41 @@
             <iframe class="embed-responsive-item" src="pdf/introduçao a enfermagem.pdf"></iframe>
         </div>
 
-        <div class="drive mb-5 mt-3">
-            <a href="https://drive.google.com/file/d/1DsXdDByVRD9mSp3FbefoU1BAI4HcdOO7/view?usp=sharing"><button type="button" class="btn btn-primary btn-lg d-inline"><img src="https://img.icons8.com/color/60/000000/google-drive--v2.png"/>GOOGLE DRIVE</button></a>
+        <!--GOOGLE DRIVE E CONTATO-->
+
+        <div class="drive mt-3">
+            <abbr title="CLIQUE AQUI PARA ACESSAR A APOSTILA"><a href="https://drive.google.com/file/d/1DsXdDByVRD9mSp3FbefoU1BAI4HcdOO7/view?usp=sharing"><button type="button" class="btn btn-primary btn-lg d-inline"><img src="https://img.icons8.com/color/60/000000/google-drive--v2.png"/>GOOGLE DRIVE</button></a></abbr>
+            <abbr title="CLIQUE AQUI PARA TIRAR SUAS DÚVIDAS"><a href="https://wa.me/+5511910936703"><button type="button" class="btn btn-primary btn-lg d-inline wpp"><img src="https://img.icons8.com/color/60/000000/whatsapp--v6.png"/>WHATSAPP</button></a></abbr>
         </div>
-        
+
+        <!--VIDEOS-->
+
         <div class="videos">
             <h1 class="mb-5 mt-5">VIDEOS</h1>
-            <a href="https://youtu.be/TVRTXlvA3-A"><button type="button" class="btn btn-primary btn-lg d-block"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/>ANOTAÇÃO DE ENFERMAGEM</button></a>
+            <button type="button" class="btn btn-primary btn-lg d-block" data-toggle="modal" data-target="#ExemploModalCentralizado"><img src="https://img.icons8.com/pastel-glyph/64/000000/movie-beginning.png"/><span>ANOTAÇÃO DE ENFERMAGEM</span></button>
         </div>
         
+        <!--MODAL VIDEOS-->
 
+        <div class="modal fade " id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">ANOTAÇÃO DE ENFERMAGEM</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TVRTXlvA3-A" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
+    <script src="js/script.js"></script>
 </body>
 </html>
