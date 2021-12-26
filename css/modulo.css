@@ -119,7 +119,7 @@ abbr{
 }
 
 @media (max-width: 426px){
-    .embed-responsive, iframe{
+    .embed-responsive{
         display: none !important;
     }
     .videos button{
